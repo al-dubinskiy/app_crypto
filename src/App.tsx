@@ -8,12 +8,12 @@ import { RootNavigator } from 'navigation';
 const App = () => {
   return (
     <ContextProvider>
-      <DarkThemeProvider>
+      {/* <DarkThemeProvider> */}
         <SafeAreaProvider>
-          <RootNavigator />
-          <NotificationHandler />
+          {/* <RootNavigator /> */}
+          <NotificationHandler /> 
         </SafeAreaProvider>
-      </DarkThemeProvider>
+      {/* </DarkThemeProvider> */}
     </ContextProvider>
   );
 };
