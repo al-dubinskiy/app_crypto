@@ -5,6 +5,7 @@ import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
 import { AppContext, AUTH_CHECKED } from 'context';
 import { Loading } from 'components';
 import { CCVPNavigator, PreAuthNavigator } from './PreAuth';
+import { Text } from 'react-native';
 
 const RootNavigator = () => {
   const { state, dispatch } = useContext(AppContext);
@@ -28,6 +29,7 @@ const RootNavigator = () => {
     };
   }, [checkUser]);
 
+  return <Text>fdsffsdf</Text>;
   return authLoading ? (
     <Loading />
   ) : (

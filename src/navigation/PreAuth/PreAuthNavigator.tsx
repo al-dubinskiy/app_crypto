@@ -11,6 +11,7 @@ import SignUpNavigator from './SignUpNavigator';
 const PreAuthStack = createStackNavigator<PreAuthScreens>();
 
 const PreAuthNavigator = () => {
+  return null;
   return (
     <PreAuthStack.Navigator headerMode="none">
       <PreAuthStack.Screen name="Onboarding" component={Onboarding} />
