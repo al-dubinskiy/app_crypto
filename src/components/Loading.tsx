@@ -11,7 +11,7 @@ const Loading: React.FC<ILoadingProps> = ({ isFullScreen }) => {
   return (
     <Box
       style={StyleSheet.absoluteFill}
-      backgroundColor={isFullScreen ? 'overlay' : 'transparent'}
+      // backgroundColor={isFullScreen ? 'overlay' : 'transparent'}
       justifyContent="center"
       alignItems="center"
     >

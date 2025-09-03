@@ -30,14 +30,14 @@ const OnboardingSliderItem: React.FC<IOnboardingSliderItemProps> = ({
       <View style={OnboardingSliderItemStyle.indicator}>
         <Indicator type="slide" {...{ index }} />
       </View>
-      <View style={OnboardingSliderItemStyle.text}>
+      {/* <View style={OnboardingSliderItemStyle.text}>
         <StyledText variant="h1" textAlign="center">
           {header}
         </StyledText>
         <StyledText variant="paragraph" textAlign="center">
           {description}
         </StyledText>
-      </View>
+      </View> */}
     </View>
   );
 };

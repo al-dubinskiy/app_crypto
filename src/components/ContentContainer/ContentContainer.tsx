@@ -15,7 +15,7 @@ const ContentContainer: React.FC<IContentContainerProps> = ({ children, height }
   return (
     <Box style={StyleSheet.absoluteFill} justifyContent="flex-end">
       <AnimatedBox
-        backgroundColor="bgSecondary"
+        // backgroundColor="bgSecondary"
         borderRadius="l"
         {...{ height }}
         style={ContentContainerStyle.container}

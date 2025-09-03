@@ -55,14 +55,14 @@ const OnboardingSlider: React.FC<IOnboardingSliderProps> = ({ onGetStartedPress 
           return (
             <>
               <OnboardingSliderItem {...{ header, description, illustration }} index={index + 1} />
-              <Box position="absolute" bottom={60} left={0} right={0} alignItems="center">
+              {/* <Box position="absolute" bottom={60} left={0} right={0} alignItems="center">
                 <StyledButton
                   variant={isLast ? 'primary' : 'ghost'}
                   label={isLast ? "Let's get started" : 'Next Step'}
                   onPress={() => handleNextOrGetStarted(isLast, index)}
                 />
-              </Box>
-              {!isLast && (
+              </Box> */}
+              {/* {!isLast && (
                 <Box position="absolute" top={24} right={24}>
                   <PressableText
                     variant="sublimeSemiBold"
@@ -71,7 +71,7 @@ const OnboardingSlider: React.FC<IOnboardingSliderProps> = ({ onGetStartedPress 
                     label="Skip"
                   />
                 </Box>
-              )}
+              )} */}
             </>
           );
         }}
